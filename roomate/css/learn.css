@@ -1,0 +1,350 @@
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Dosis';
+ 
+ 
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.spacer{
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:'Dosis';
+  letter-spacing: 1px;
+}
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media (min-width: 768px) {
+  p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+a {
+  color: #000;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #000;
+}
+.light {
+  font-weight: 400;
+}
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: black;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+.navbar-custom a {
+  color: white;
+}
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li.active {
+  outline: none;
+}
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar-custom .nav li.active a:hover {
+  color: white;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+     background: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    text-transform: lowercase;
+
+  }
+}
+#wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.glow{
+  display: table;
+  background: url('../img/Landscape-wallpaper-8.jpg') center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  width: 100%;
+
+}
+
+.glow .overlay {
+        background-color:  rgba(0, 0, 0, 0.7);
+        min-height:auto;
+          margin-right: auto;
+    margin-left: auto;
+      
+    }
+
+
+
+ .overlay .hd{
+  font-family: 'Dosis';
+  color:#fff;
+  text-align: center;font-weight: bolder;
+  font-size: 60px;
+  
+ }
+
+ .overlay .hd3{
+  font-family: 'Dosis';
+  color:#fff;
+  text-align: center;font-weight: bolder;
+  font-size: 30px;
+  
+ }
+
+.overlay .cta{
+  background: transparent;
+  color:#fff;
+
+}
+
+.overlay .cta:hover{
+   box-shadow: 2px 2px 3px #fff;
+  color:red;
+  background: #fff;
+  text-transform: uppercase;
+  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.7s ease-in-out, padding 0.7s ease-in-out;
+}
+
+ .small-spacer{
+  padding-bottom: 50px;
+  padding-top: 50px;
+ }
+
+.color{
+
+color: #000033;
+}
+
+
+.line{
+  border-color: red;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  max-width: 100px;
+  height: 2px;
+}
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #000033;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.well h4{
+  color: #fff;
+}
+
+.well .cta{
+  background: transparent;
+ 
+  color: #fff;
+}
+
+
+.well .cta:hover{
+   box-shadow: 2px 2px 3px #fff;
+  color:#000033;
+  background: #fff;
+  text-transform: uppercase;
+  -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.7s ease-in-out, padding 0.7s ease-in-out;
+}
+
+@media (max-width: 480px) {
+  .overlay h3{
+    font-size: 40px;
+    margin-left: 20px;
+
+    
+  
+   
+  }
+  
+}
+
+@media (max-width: 480px) {
+
+  .overlay h1{
+    font-size: 30px;
+    margin-left: 20px;
+   
+  }
+  
+}
+
+
+@media (max-width: 320px) {
+
+  .overlay h1{
+    font-size: 30px;
+    margin-left: 10px;
+
+    
+  
+   
+  }
+  
+}
+
+@media (max-width: 320px) {
+  .overlay h3{
+    font-size: 40px;
+   margin-left: 20px;
+    
+  
+   
+  }
+  
+}
+
+.filter {
+    list-style: none; padding: 0; margin: 2em 0; text-align: center;
+}
+.filter li {
+    display: inline-block; margin: .6em .4em;
+}
+.filter li a {
+    color: #b8c7ca; font-size: .9em; padding: 5px 12px; border: 2px solid #D0DADC; border-radius: 4px; text-decoration: none;
+}
+.filter li a:hover {
+    color: #345; border-color: #345;
+}
+.filter a.current ,
+.filter a.current:hover {
+    color: #fff; background: #345; border-color: transparent;
+}
+
+.filter a { 
+    margin: 10px; 
+    color:#666;
+    text-decoration:none;
+}
+
+.filter a.current { 
+    font-weight:bold;
+}
+
+.filter-result{
+    margin: auto;
+    width: 50%;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.blue{
+    background-color: #0000ff;
+}
+
+.green{
+    background-color: #00ff00;
+}
+
+.red{
+    background-color: #ff0000;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
